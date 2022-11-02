@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sketch {
+    border: 1px solid #ccc;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sketch__square {
+    border: 1px solid #ccc;
+}
+
+.controls {
+  max-width: 600px;
+  margin: 0 auto;
+  margin: 60px auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls__title {
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.controls__btn {
+  border: none;
+  outline: none;
+  border: 2px solid #ccc;
+  padding: 10px 20px;
+}
